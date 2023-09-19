@@ -475,7 +475,7 @@ pod 'ObjectMapper', '~> 2.2'
 如果你的项目使用  [Carthage](https://github.com/Carthage/Carthage) ，你可以把下面的内容添加到 `Cartfile` 中，将 ObjectMapper 的依赖到你的项目中：
 
 ```
-github "Hearst-DD/ObjectMapper" ~> 2.2
+github "ghostcrying/ObjectMapper" ~> 4.3.0
 ```
 
 ### Swift Package Manager
@@ -496,5 +496,4 @@ github "Hearst-DD/ObjectMapper" ~> 2.2
 5. 在配置界面的顶部选项栏中，打开 "Build Phases" 面板。
 6. 展开 "Target Dependencies" 组，并添加 `ObjectMapper.framework` 。
 7. 点击面板左上角的 `+` 按钮,选择 "New Copy Files Phase"。将这个阶段重命名为 "Copy Frameworks"，设置  "Destination" 为 "Frameworks"，最后添加 `ObjectMapper.framework` 。  
-
 

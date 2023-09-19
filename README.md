@@ -478,7 +478,7 @@ pod 'ObjectMapper', '~> 3.5' (check releases to make sure this is the latest ver
 If you're using [Carthage](https://github.com/Carthage/Carthage) you can add a dependency on ObjectMapper by adding it to your `Cartfile`:
 
 ```
-github "tristanhimmelman/ObjectMapper" ~> 3.5 (check releases to make sure this is the latest version)
+github "ghostcrying/ObjectMapper" ~> 4.3.0 (check releases to make sure this is the latest version)
 ```
 
 ### Swift Package Manager

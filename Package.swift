@@ -5,10 +5,10 @@ import PackageDescription
 let package = Package(
 	name: "ObjectMapper",
 	platforms: [
-		.macOS(.v10_15),
+		.macOS(.v10_13),
 		.iOS(.v11),
 		.tvOS(.v10),
-		.watchOS(.v3),
+		.watchOS(.v3)
 	],
 	products: [.library(
 		name: "ObjectMapper",
